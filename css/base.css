@@ -1,7 +1,16 @@
 * {
+	--bg_color: #272424;
+	--fg_color: #F5F5F5;
+	--bg_color_2: #EAF2FD;
+	--fg_color_2: #464646;
+
+	margin: 0;
+	padding: 0;
 	font-family: Raleway, sans-serif;
-	--bg_color: #F5F5F5;
-	--fg_color: #464646;
+
+	list-style: none;
+	text-decoration: none;
+
 }
 
 html {
@@ -10,5 +19,5 @@ html {
 
 body {
 	background-color: var(--bg_color);
-	color: var(--fg_color);
+  
 }

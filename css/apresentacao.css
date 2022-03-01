@@ -1,0 +1,50 @@
+.apresentacao {
+  display: grid;
+  grid-template-columns: auto 368px;
+  grid-gap: 20px;
+  align-items: center;
+  margin: 32px auto;
+  width: 80%;
+}
+
+.apresentacao__titulo {
+  color: var(--fg_color);
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 61px;
+  margin: 24px 0;
+}
+
+.apresentacao__texto {
+  color: var(--fg_color);
+  font-size: 22px;
+  align-self: stretch;
+  line-height: 26px;
+  margin: 24px 0px;
+}
+
+.apresentacao__foto {
+  width: 368px;
+  height: 368px;
+  border-radius: 50%;
+  background-image: url('../assets/lucas-gabriel.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.apresentacao__links {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin: 24px 0px;
+}
+
+.apresentacao__links__link {
+  color: var(--fg_color);
+  display: flex;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 4px;
+}

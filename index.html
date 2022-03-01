@@ -8,24 +8,73 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/pularNavegacao.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/apresentacao.css">
+    <link rel="stylesheet" href="css/sobreMim.css">
   </head>
 
   <body>
-    <a href="#conteudoPrincipal" class="pular-navegacao">Pular para conteúdo principal</a>
-    <header class="header" id="#header">
+    <a href="#main" class="pular-navegacao">Pular para conteúdo principal</a>
+    <header class="header" id="header">
       <a href="#" class="header__nome">Lucas Gabriel</a>
       <ul class="header__nav">
-        <li class="header__nav__item"><a href="#" class="header__nav__link">Sobre mim</a></li>
-        <li class="header__nav__item"><a href="#" class="header__nav__link">Skills</a></li>
-        <li class="header__nav__item"><a href="#" class="header__nav__link">Hobbies</a></li>
-        <li class="header__nav__item"><a href="#" class="header__nav__link">Formação</a></li>
-        <li class="header__nav__item"><a href="#" class="header__nav__link">Projetos</a></li>
-        <li class="header__nav__item"><a href="mailto:ribeirolg@hotmail.com" class="header__nav__link">ribeirolg@hotmail.com</a></li>
+        <li class="header__nav__item">
+          <a href="#" class="header__nav__link">Sobre mim</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="#" class="header__nav__link">Skills</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="#" class="header__nav__link">Hobbies</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="#" class="header__nav__link">Formação</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="#" class="header__nav__link">Projetos</a>
+        </li>
+        <li class="header__nav__item">
+          <a href="mailto:ribeirolg@hotmail.com" class="header__nav__link header__nav__link--email">ribeirolg@hotmail.com</a>
+        </li>
       </ul>
     </header>
+    <main class="main" id="main">
+      <section class="apresentacao">
+        <div>
+          <h1 class="apresentacao__titulo">Olá, meu nome é Lucas</h1>
+          <p class="apresentacao__texto">Sou formado em Engenharia Civil pela Universidade Estadual do Maranhão (UEMA), e atualmente estou cursando Ciência da Computação na Universidade Federal do Maranhão (UFMA).</p>
+          <ul class="apresentacao__links">
+            <li class="apresentacao__links__item">
+              <a href="https://github.com/lucasgabriel07" target="_blank" class="apresentacao__links__link">
+                <p>Github</p>
+                <img src="assets/arrow.svg">
+              </a>
+            </li>
+            <li class="apresentacao__links__item">
+              <a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro" target="_blank" class="apresentacao__links__link">
+                <p>Linkedin</p>
+                <img src="assets/arrow.svg">
+              </a>
+            </li>
+            <li class="apresentacao__links__item">
+              <a href="assets/curriculo-lucas-gabriel.pdf" target="_blank" class="apresentacao__links__link">
+                <p>Currículo</p>
+                <img src="assets/arrow.svg">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="apresentacao__foto"></div>
+      </section>
+      
+      <section class="sobre-mim">
+        <h2 class="sobre-mim__titulo">Sobre mim</h2>
+        <p class="sobre-mim__texto">
+          Tenho 24 anos e sou de São Luís, no Maranhão. Tive meu primeiro contato com programação no primeiro período da faculdade de Engenharia Civil. Gostei bastante, mas acabei não dando sequência aos estudos. Ao concluir a graduação, decidi cursar Ciência da Computação, e entrar de vez no mundo da programação. Hoje sou completamente apaixonado por programação e tecnologia, e gosto muito de aprender coisas novas.
+        </p>
+      </section>
+    </main>
   </body>
 </html>

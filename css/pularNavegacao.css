@@ -1,0 +1,25 @@
+.pular-navegacao {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  display: block;
+  color: transparent;
+  position: absolute;
+}
+
+.pular-navegacao:focus,
+.pular-navegacao:hover,
+.pular-navegacao:active {
+    font-size: 15px;
+    text-indent: none;
+    white-space: none;
+    overflow: visible;
+    width: auto;
+    height: auto;
+    padding: 0.5%;
+    color: #FFFFFF;
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 5px;
+}

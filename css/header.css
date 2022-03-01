@@ -1,0 +1,42 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0px;
+  position: static;
+  width: 80%;
+  height: 88px;
+  margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+}
+
+.header__nome {
+  color: var(--fg_color);
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header__nome::before {
+  content: '👨🏽‍💻';
+  margin-right: 5px;
+}
+
+.header__nav__link {
+  color: var(--fg_color);
+  font-size: 16px;
+  margin-right: 32px;
+  text-decoration: none;
+}
+
+.header__nav__item:last-child .header__nav__link {
+  margin-right: 0; 
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+* {
+	font-family: Raleway, sans-serif;
+	--bg_color: #F5F5F5;
+	--fg_color: #464646;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--bg_color);
+	color: var(--fg_color);
+}

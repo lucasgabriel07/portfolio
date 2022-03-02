@@ -5,6 +5,8 @@
 
 	list-style: none;
 	text-decoration: none;
+
+	transition: background-color 1s;
 }
 
 :root {

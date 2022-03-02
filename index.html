@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/apresentacao.css">
     <link rel="stylesheet" href="css/sobreMim.css">
+    <link rel="stylesheet" href="css/toggle-switchy.css">
   </head>
 
   <body>
@@ -39,6 +40,13 @@
           <a href="mailto:ribeirolg@hotmail.com" class="header__nav__link header__nav__link--email">ribeirolg@hotmail.com</a>
         </li>
       </ul>
+      <label for="ID_HERE" class="toggle-switchy" data-color="gray" data-style="rounded">
+        <input checked type="checkbox" id="ID_HERE" onchange="changeTheme(this)">
+        <span class="toggle" data-color="gray">
+          <span class="switch"></span>
+        </span>
+      </label>
+      
     </header>
     <main class="main" id="main">
       <section class="apresentacao">
@@ -49,19 +57,19 @@
             <li class="apresentacao__links__item">
               <a href="https://github.com/lucasgabriel07" target="_blank" class="apresentacao__links__link">
                 <p>Github</p>
-                <img src="assets/arrow.svg">
+                <img src="assets/white_arrow.svg">
               </a>
             </li>
             <li class="apresentacao__links__item">
               <a href="https://www.linkedin.com/in/lucas-gabriel-araujo-ribeiro" target="_blank" class="apresentacao__links__link">
                 <p>Linkedin</p>
-                <img src="assets/arrow.svg">
+                <img src="assets/white_arrow.svg">
               </a>
             </li>
             <li class="apresentacao__links__item">
               <a href="assets/curriculo-lucas-gabriel.pdf" target="_blank" class="apresentacao__links__link">
                 <p>Currículo</p>
-                <img src="assets/arrow.svg">
+                <img src="assets/white_arrow.svg">
               </a>
             </li>
           </ul>
@@ -76,5 +84,7 @@
         </p>
       </section>
     </main>
+  
+    <script src="js/theme.js"></script>
   </body>
 </html>

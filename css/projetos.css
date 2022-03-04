@@ -4,7 +4,7 @@
 }
 
 .projetos__titulo {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 32px;
   line-height: 38px;
   text-align: center;
@@ -44,7 +44,7 @@
 .projetos__item__titulo {
   font-size: 22px;
   line-height: 26px;
-  color: var(--fg_color);
+  color: var(--fg-color);
   align-self: stretch;
   margin: 8px 0px;
 }
@@ -52,7 +52,7 @@
 .projetos__item__subtitulo {
   font-size: 16px;
   line-height: 19px;
-  color: var(--fg_color);
+  color: var(--fg-color);
   align-self: stretch;
   margin: 8px 0px;
 }

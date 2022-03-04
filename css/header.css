@@ -17,7 +17,7 @@
 }
 
 .header__nome {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 16px;
   font-weight: bold;
   text-decoration: none;
@@ -29,7 +29,7 @@
 }
 
 .header__nav__link {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 16px;
   text-decoration: none;
 }

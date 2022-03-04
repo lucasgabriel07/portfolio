@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--bg_color_2);
+  background-color: var(--bg_color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .footer {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 16px;
   line-height: 19px;
   text-align: center;

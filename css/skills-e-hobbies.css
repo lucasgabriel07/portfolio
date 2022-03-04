@@ -9,7 +9,7 @@
 }
 
 .skills__titulo, .hobbies__titulo {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 32px;
   line-height: 38px;
   text-align: center;

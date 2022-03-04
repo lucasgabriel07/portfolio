@@ -1,10 +1,10 @@
 .formacao {
   padding: 82px 10%;
-  background-color: var(--bg_color_2);
+  background-color: var(--bg-color-2);
 }
 
 .formacao__titulo {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 32px;
   line-height: 38px;
   text-align: center;
@@ -36,7 +36,7 @@
 }
 
 .formacao__item__nome {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 22px;
   font-weight: bold;
   line-height: 26px;
@@ -44,7 +44,7 @@
 }
 
 .formacao__item__info {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 16px;
   line-height: 19px;
   margin: 8px 0px;

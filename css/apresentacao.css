@@ -8,7 +8,7 @@
 }
 
 .apresentacao__titulo {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-weight: bold;
   font-size: 52px;
   line-height: 61px;
@@ -16,7 +16,7 @@
 }
 
 .apresentacao__texto {
-  color: var(--fg_color);
+  color: var(--fg-color);
   font-size: 22px;
   align-self: stretch;
   line-height: 26px;
@@ -42,7 +42,7 @@
 }
 
 .apresentacao__links__link {
-  color: var(--fg_color);
+  color: var(--fg-color);
   display: flex;
   font-weight: 500;
   font-size: 16px;

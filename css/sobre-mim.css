@@ -1,0 +1,37 @@
+.sobre-mim {
+  background-color: var(--bg_color_2);
+  margin: 0 auto;
+  padding: 64px 10%;
+}
+
+.sobre-mim__titulo {
+  color: var(--fg_color_2);
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 0 0 16px;
+}
+
+.sobre-mim__texto {
+  color: var(--fg_color_2);
+  font-size: 16px;
+  line-height: 25px;
+  max-width: 751px;
+}
+
+@media (max-width: 768px) {
+  .sobre-mim {
+    padding: 5%;
+  }
+
+  .sobre-mim__titulo {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .sobre-mim__texto {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 100%;
+  }
+}

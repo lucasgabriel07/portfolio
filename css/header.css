@@ -1,10 +1,9 @@
-.header{
+.header {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 32px 0px;
-  position: static;
   width: 80%;
   margin: 0 auto;
 }
@@ -35,17 +34,22 @@
   text-decoration: none;
 }
 
-.header__nav__link--email {
-  font-weight: bold;
-}
-
 @media (max-width: 768px) {
   .header {
     padding: 16px 32px;
+    width: calc(100% - 64px);
   }
 
-  .header__nav__item:not(:last-child) .header__nav__link {
+  .header__nav__link {
     display: none;
+  }
+
+  .header__nav {
+    gap: 0;
+  }
+
+  .header {
+    justify-content: space-between;
   }
 }
 
@@ -60,10 +64,5 @@
 
   .header__nome::before {
     margin-right: 2px;
-  }
-
-  .header__nav__link--email {
-    font-size: 14px;
-    font-weight: normal;
   }
 }

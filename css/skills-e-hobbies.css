@@ -45,3 +45,24 @@
   font-weight: bold;
   line-height: 19px;
 }
+
+@media (max-width: 980px) {
+  .skills__lista, .hobbies__lista {
+    grid-template-columns: 18% 18% 18% 18% 18%;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills, .hobbies {
+    width: 90%;
+  }
+
+  .skills__titulo, .hobbies__titulo {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .skills__lista, .hobbies__lista {
+    grid-template-columns: 32% 32% 32%;
+  }
+}

@@ -5,7 +5,7 @@
 }
 
 .sobre-mim__titulo {
-  color: var(--fg_color_2);
+  color: var(--fg_color);
   font-weight: bold;
   font-size: 32px;
   line-height: 38px;
@@ -13,7 +13,7 @@
 }
 
 .sobre-mim__texto {
-  color: var(--fg_color_2);
+  color: var(--fg_color);
   font-size: 16px;
   line-height: 25px;
   max-width: 751px;

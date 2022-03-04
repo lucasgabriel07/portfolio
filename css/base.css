@@ -10,10 +10,20 @@
 }
 
 :root {
-	--bg_color: #272424;
-	--fg_color: #F5F5F5;
-	--bg_color_2: #EAF2FD;
-	--fg_color_2: #464646;
+	/* Dark theme */
+	--bg_dark_1: #272424;
+	--bg_dark_2: #282828;
+	--fg_dark: #F5F5F5;
+
+	/* Light theme */
+	--bg_light_1: #F5F5F5;
+	--bg_light_2: #EAF2FD;
+	--fg_light: #464646;
+
+	/* Valores iniciais das variáveis utilizadas */
+	--bg_color_1: var(--bg_dark_1);
+	--bg_color_2: var(--bg_dark_2);
+	--fg_color: var(--fg_dark);
 }
 
 html {
@@ -21,5 +31,5 @@ html {
 }
 
 body {
-	background-color: var(--bg_color);
+	background-color: var(--bg_color_1);
 }

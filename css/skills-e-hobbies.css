@@ -66,3 +66,14 @@
     grid-template-columns: 32% 32% 32%;
   }
 }
+
+@media (max-width: 480px) {
+  .skills {
+    margin: 0 auto;
+  }
+
+  .skills__lista, .hobbies__lista {
+    grid-template-columns: 47% 47%;
+  }
+
+}

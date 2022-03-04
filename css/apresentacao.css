@@ -75,3 +75,43 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .apresentacao {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 16px;
+  }
+
+  .apresentacao__titulo {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 8px 0px;
+  }
+
+  .apresentacao__texto {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 8px 0px;
+  }
+
+  .apresentacao__foto {
+    width: 98px;
+    height: 98px;
+    align-self: flex-start;
+  }
+
+  .apresentacao__links {
+    gap: 0;
+    justify-content: space-between;
+  }
+
+  .apresentacao__links__link {
+    font-size: 14px;
+    gap: 0;
+  }
+
+  .apresentacao__links__link img {
+    width: 16px;
+  }
+}

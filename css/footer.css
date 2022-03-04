@@ -1,0 +1,14 @@
+.footer {
+  background-color: var(--bg_color_2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.footer {
+  color: var(--fg_color);
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}

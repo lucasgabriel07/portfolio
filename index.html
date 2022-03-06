@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/skills-e-hobbies.css">
     <link rel="stylesheet" href="css/formacao.css">
     <link rel="stylesheet" href="css/projetos.css">
+    <link rel="stylesheet" href="css/contato.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/toggle-switchy.css">
   </head>
@@ -252,6 +253,40 @@
           </li>
         </ul>
       </section>
+
+      <section class="contato">
+        <div class="contato__container">
+          <h2 class="contato__titulo">Contato</h2>
+          <p class="contato__texto">
+            Quer entrar em contato comigo?<br>
+            Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+          </p>
+          
+          <form class="contato__formulario">
+            <div class="contato__formulario__campo">
+              <label for="nome">Nome</label>
+              <input type="text" name="Nome" id="nome" class="contato__formulario__input" placeholder="Nome" required>
+            </div>
+
+            <div class="contato__formulario__campo">
+              <label for="email">E-mail</label>
+              <input type="email" name="Email" id="email" class="contato__formulario__input" required placeholder="E-mail">
+            </div>
+
+            <div class="contato__formulario__campo">
+              <label for="assunto">Assunto</label>
+              <input type="text" name="Assunto" id="assunto" class="contato__formulario__input" required placeholder="Assunto">
+            </div>
+
+            <div class="contato__formulario__campo contato__formulario__campo--mensagem">
+              <label for="mensagem">Mensagem</label>
+              <textarea name="Mensagem" id="mensagem" class="contato__formulario__input" required placeholder="Mensagem"></textarea>
+            </div>
+    
+            <button type="submit" class="contato__formulario__botao botao">Enviar mensagem</button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
@@ -259,5 +294,6 @@
     </footer>
       
     <script src="js/theme.js"></script>
+    <script src="js/form.js"></script>
   </body>
 </html>

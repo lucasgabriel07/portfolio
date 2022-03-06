@@ -26,3 +26,19 @@ camposForm.forEach(campo => {
     campo.style.borderBottom = '';
   }
 });
+
+const form = document.querySelector('.contato__formulario');
+const inputNome = document.getElementById('nome');
+const inputEmail = document.getElementById('email');
+const inputAssunto = document.getElementById('assunto');
+const inputMensgem = document.getElementById('mensagem');
+
+form.onsubmit = () => {
+
+  const nome = inputNome.value;
+  const email = inputEmail.value;
+  const assunto = inputAssunto.value;
+  const mensagem = inputMensgem.value;
+
+  
+}

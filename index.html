@@ -259,10 +259,10 @@
           <h2 class="contato__titulo">Contato</h2>
           <p class="contato__texto">
             Quer entrar em contato comigo?<br>
-            Preencha o formulário ao lado e entrarei em contato o mais rápido possível.
+            Preencha o formulário abaixo e entrarei em contato o mais rápido possível.
           </p>
           
-          <form class="contato__formulario">
+          <form class="contato__formulario" action="https://formsubmit.co/10a8d367485f8e179963108c00b61eed" method="POST" >
             <div class="contato__formulario__campo">
               <label for="nome">Nome</label>
               <input type="text" name="Nome" id="nome" class="contato__formulario__input" placeholder="Nome" required>
@@ -284,6 +284,10 @@
             </div>
     
             <button type="submit" class="contato__formulario__botao botao">Enviar mensagem</button>
+
+            <input type="hidden" name="_next" value="https://lucasgabriel07.github.io/portfolio/thankyou.html">
+            <input type="hidden" name="_subject" value="Novo email!">
+            <input type="hidden" name="_captcha" value="false">
           </form>
         </div>
       </section>

@@ -33,3 +33,7 @@ html {
 body {
 	background-color: var(--bg-color-1);
 }
+
+button {
+	cursor: pointer;
+}

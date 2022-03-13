@@ -18,8 +18,9 @@
 
 .skills__lista, .hobbies__lista {
   display: grid;
-  grid-template-columns: 13% 13% 13% 13% 13% 13% 13%;
+  grid-template-columns: 15.3% 15.3% 15.3% 15.3% 15.3% 15.3%;
   gap: 16px;
+  width: 100%;
 }
 
 .skills__item, .hobbies__item  {

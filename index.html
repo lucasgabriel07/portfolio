@@ -26,23 +26,25 @@
     <a href="#main" class="pular-navegacao">Pular para conteúdo principal</a>
     <header class="header" id="header">
       <a href="#" class="header__nome">Lucas Gabriel</a>
-      <ul class="header__nav">
-        <li class="header__nav__item">
-          <a href="#sobre-mim" class="header__nav__link">Sobre mim</a>
-        </li>
-        <li class="header__nav__item">
-          <a href="#skills" class="header__nav__link">Skills</a>
-        </li>
-        <li class="header__nav__item">
-          <a href="#hobbies" class="header__nav__link">Hobbies</a>
-        </li>
-        <li class="header__nav__item">
-          <a href="#formacao" class="header__nav__link">Formação</a>
-        </li>
-        <li class="header__nav__item">
-          <a href="#projetos" class="header__nav__link">Projetos</a>
-        </li>
-      </ul>
+      <nav class="header__nav">
+        <ul class="header__nav__menu">
+          <li class="header__nav__item">
+            <a href="#sobre-mim" class="header__nav__link">Sobre mim</a>
+          </li>
+          <li class="header__nav__item">
+            <a href="#skills" class="header__nav__link">Skills</a>
+          </li>
+          <li class="header__nav__item">
+            <a href="#hobbies" class="header__nav__link">Hobbies</a>
+          </li>
+          <li class="header__nav__item">
+            <a href="#formacao" class="header__nav__link">Formação</a>
+          </li>
+          <li class="header__nav__item">
+            <a href="#projetos" class="header__nav__link">Projetos</a>
+          </li>
+        </ul>
+      </nav>
       <label for="theme-checkbox" class="toggle-switchy" data-color="gray" data-style="rounded">
         <input checked type="checkbox" id="theme-checkbox">
         <span class="toggle" data-color="gray">
@@ -124,6 +126,10 @@
             <img src="assets/git.svg" title="Git" class="skills__item__icone">
             <p class="skills__item__nome">Git</p>
           </li>
+          <li class="skills__item">
+            <img src="assets/my-sql.svg" title="My SQL" class="skills__item__icone">
+            <p class="skills__item__nome">MySQL</p>
+          </li>
         </ul>
       </section>
 
@@ -153,18 +159,40 @@
         <h2 class="formacao__titulo">Formação acadêmica</h2>
         <ul class="formacao__lista">
           <li class="formacao__item">
+            <div class="formacao__item__container">  
+              <img src="assets/ufma.png" alt="UFMA" class="formacao__item__imagem">
+            </div>
+            <p class="formacao__item__nome">Ciência da Computação</p>
+            <p class="formacao__item__info">2020 - Em andamento (UFMA)</p>
+          </li>
+
+          <li class="formacao__item">
             <div class="formacao__item__container">
               <img src="assets/uema.png" alt="UEMA" class="formacao__item__imagem">
             </div>
             <p class="formacao__item__nome">Engenharia Civil</p>
             <p class="formacao__item__info">2015 - 2019 (UEMA)</p>
           </li>
+        </ul>
+
+        <h2 class="formacao__titulo" id="formacao-complementar">Formação complementar</h2>
+        <ul class="formacao__lista">
           <li class="formacao__item">
-            <div class="formacao__item__container">  
-              <img src="assets/ufma.png" alt="UFMA" class="formacao__item__imagem">
+            <div class="formacao__item__container">
+              <img src="assets/alura.svg" alt="Alura" class="formacao__item__imagem">
             </div>
-            <p class="formacao__item__nome">Ciência da Computação</p>
-            <p class="formacao__item__info">2020 - Em andamento (UFMA)</p>
+            <p class="formacao__item__nome">Programa Desenvolve - Grupo Boticário</p>
+            <p class="formacao__item__info">Trilha de Programação Full Stack</p>
+            <p class="formacao__item__info">2022 - Em andamento (Alura)</p>
+          </li>
+
+          <li class="formacao__item">
+            <div class="formacao__item__container">
+              <img src="assets/alura.svg" alt="Alura" class="formacao__item__imagem">
+            </div>
+            <p class="formacao__item__nome">Programa Trilhas Inova - Inova Maranhão</p>
+            <p class="formacao__item__info">Trilha de Programação Full Stack</p>
+            <p class="formacao__item__info">2021 - 2022 (Alura)</p>
           </li>
         </ul>
       </section>

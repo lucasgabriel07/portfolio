@@ -1,5 +1,5 @@
 .formacao {
-  padding: 82px 10%;
+  padding: 18px 10% 82px;
   background-color: var(--bg-color-2);
 }
 
@@ -8,7 +8,7 @@
   font-size: 32px;
   line-height: 38px;
   text-align: center;
-  padding: 0 0 32px;
+  padding: 64px 0 32px;
 }
 
 .formacao__lista {
@@ -53,12 +53,13 @@
 @media (max-width: 768px) {
   .formacao {
     width: 90%;
-    padding: 32px;
+    padding: 0 32px 32px;
   }
   
   .formacao__titulo {
     font-size: 22px;
     line-height: 26px;
+    padding: 32px 0;
   }
 
   .formacao__item__container {
@@ -83,7 +84,7 @@
 
 @media (max-width: 480px) {
   .formacao {
-    padding: 32px 5%;
+    padding: 0 5% 32px;
   }
 
   .formacao__lista {
